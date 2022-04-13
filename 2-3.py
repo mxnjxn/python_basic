@@ -1,0 +1,8 @@
+# 2-3 boolean 자료형(ture and false)
+print(4 > 10)
+print(5 > 2)
+print(True)
+print(False)
+print(not True)
+print(not False)
+print(not (4 > 5))
