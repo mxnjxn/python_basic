@@ -1,5 +1,5 @@
 # 3-3 숫자 처리 함수
-from math import *
+from math import *  # math library 에 있는 모든 module을 사용하겠다는 의미
 
 print("3-3 숫자 처리 함수")
 
