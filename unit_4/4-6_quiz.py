@@ -41,5 +41,5 @@ password = D_three_character + str(len(D_character)) + str(D_number_e) + "!"
 print("생성된 비밀번호는: %s" % password)
 
 # *****************************************************************
-# 복습
+# 복습 --> 더 간단한 방법으로 해보기
 google = "http://google.com"
