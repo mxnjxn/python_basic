@@ -1,4 +1,11 @@
 # 리스트 --> 변수에 하나 하나 지정해야 하는 값을 리스트는 여러개를 한꺼번에 저장 할 수 있다.
+# append()
+# insert(1,"dsfsdf")
+# pop()
+# sort()
+# reverse()
+# clear()
+# extend()
 subway = [10, 20, 30]
 print(subway)
 
@@ -45,10 +52,12 @@ print(num_list)
 num_list.reverse()
 print(num_list)
 
+# del() --> 리스트 요소 삭제 하기
+del num_list[3]  # 3번째 index 값 없애기
+print(num_list)
 # clear() --> 모든 값을 없애기
 num_list.clear()
 print(num_list)
-
 
 # 문자열에는 모든 자료형을 다 넣을 수 있음
 mix_list = ["조세호", 20, True]

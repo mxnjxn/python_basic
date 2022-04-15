@@ -42,4 +42,12 @@ print("생성된 비밀번호는: %s" % password)
 
 # *****************************************************************
 # 복습 --> 더 간단한 방법으로 해보기
+# 5줄로 끝내기
 google = "http://google.com"
+
+character = google.replace("http://", "")
+character = character[0:character.index(".")]
+# character = character[0:6] --> 주소가 다를 때에는 성립 x --> 일반화 시켜보자.
+
+print("생성된 비밀번호는: {}{}{}{}" .format(
+    character[0:3], len(character), character.count("e"), "!"))

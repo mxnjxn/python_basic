@@ -11,9 +11,10 @@ print(pow(4, 2))  # 4^2
 
 # max() --> compare the numbers and output the bigger number
 print(max(5, 12))
-
+print(max(4, 6))
 # min()
 print(min(3, 2))
+print(min(37, 23))
 
 # round()
 print(round(4.99))

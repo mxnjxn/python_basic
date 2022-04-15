@@ -12,4 +12,16 @@ menu = {"커피", "우유", "주스"}
 print(menu, type(menu))
 
 menu = list(menu)
-p
+print(menu, type(menu))
+
+menu = tuple(menu)
+print(menu, type(menu))
+
+menu = set(menu)
+print(menu, type(menu))
+
+variable = 123445
+print(variable, type(variable))
+
+variable = str(variable)
+print(variable, type(variable))
