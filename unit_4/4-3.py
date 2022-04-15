@@ -9,8 +9,6 @@
 # 변수명.index --> 찾으려는 문자열의 인덱스 (없으면 에러)
 # 변수명.find --> 찾으려는 문자열의 인덱스 (없으면 -1)
 # 변수명.count --> 문자열이 나온 횟수
-
-
 python = "Python is Amazing"
 
 print(python.lower())
@@ -41,7 +39,7 @@ print(find)
 print(python.find("Java"))
 print(python.find("is"))  # 단어를 입력할 시에는 제일 첫 번째 index 값이 출력 됨.
 
-# TODprint(python.index("Java"))
+# print(python.index("Java"))
 print(python.count("n"))  # 문자열 내에서 n이 나온 횟수
 
 # ************************************************************************************************
