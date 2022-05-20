@@ -51,3 +51,14 @@ character = character[0:character.index(".")]
 
 print("생성된 비밀번호는: {}{}{}{}" .format(
     character[0:3], len(character), character.count("e"), "!"))
+
+
+youtube = "http://youtube.com"
+
+character = youtube.replace("http://", "")
+character = character[:-4]  # index 이용하기
+character = character[:youtube.index(".")]
+print("dfaf %s" % character)
+
+print("생성된 비밀번호는 {}{}{}{}" .format(
+    character[0:3], len(character), character.count("e"), "!"))

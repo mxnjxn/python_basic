@@ -44,3 +44,7 @@ print("I am {age} years old, and I like {color} color" .format(
 age = 20
 color = "빨간"
 print(f"나는 {age}살이며, {color}색을 좋아해요.")
+
+name = "Tony"
+age = 39
+print(f"His name is {name} and he is {age} years old. ")

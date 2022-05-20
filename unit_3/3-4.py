@@ -27,3 +27,13 @@ print(randrange(0, 21))  # 0 에서 21미만의 정수
 print(randrange(10, 21))  # 10애서 21미만의 정수
 print(randint(0, 20))  # 0에서 20까지의 정수
 print(randint(2, 3))  # 2에서 3까지 정수
+
+# 복습
+
+print(random())
+print(random()*100)
+print(int(random()*100))
+print(int(random()*100)+1)
+
+print(randint(1, 100))
+print(randrange(1, 101))
